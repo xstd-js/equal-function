@@ -1,4 +1,4 @@
-import { type EqualFunction } from './equal-function.js';
+import { type EqualFunction } from '../equal-function.js';
 
 export const EQUAL_FUNCTION_NON_PRIMITIVES_ALWAYS_FALSE: EqualFunction<unknown> = (
   a: unknown,
