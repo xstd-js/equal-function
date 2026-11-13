@@ -1,9 +1,14 @@
 {
   "name": "@xstd/equal-function",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
-  "description": "EqualFunction type",
-  "keywords": [],
+  "description": "Equality-check utilities for typescript",
+  "keywords": [
+    "equal",
+    "equality",
+    "strict-equal",
+    "typescript"
+  ],
   "author": "Valentin Richard",
   "license": "MIT",
   "repository": {
@@ -35,7 +40,6 @@
     "@types/node": "^26.6.6",
     "@typescript/native": "npm:typescript@^7.0.2",
     "@vitest/coverage-istanbul": "^5.1.0",
-    "@vitest/coverage-v8": "^3.0.1",
     "fabrique": "2.0.36",
     "prettier": "^3.10.1",
     "prettier-plugin-organize-imports": "^4.3.0",
